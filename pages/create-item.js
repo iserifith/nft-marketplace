@@ -157,7 +157,6 @@ export default function CreateItem() {
                                 name="Asset"
                                 accept=".glb,.gltf"
                                 onChange={onChange}
-                                disabled={!fileUrl}
                             />
                         </div>
                     </div>

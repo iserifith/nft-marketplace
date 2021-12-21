@@ -34,6 +34,7 @@ export default function MyAssets() {
             NFT.abi,
             provider
         );
+
         const data = await marketContract.fetchMyNFTs();
 
         const items = await Promise.all(
